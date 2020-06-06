@@ -18,7 +18,7 @@ namespace Clientes.DAO
 
         public Dao()
         {
-            this.connection = new MySqlConnection("Server=localhost;Database=db_clientes;USER=root;PASSWORD=;");
+            this.connection = new MySqlConnection("Server=localhost;Database=db_clientes;USER=root;PASSWORD=root;");
         }
 
         public void Conectar()
